@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    background-color:darkgray;
+  }
+  .container {
+    background-color: rgb(124, 70, 23);
+    margin: auto;
+    width: 70%;
+    height: 100%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    box-shadow: 0px 0px 50px black;
+  }
+  .row1 {
+    background-image:repeating-radial-gradient( rgb(63, 41, 22),rgb(44, 22, 4));
+    margin: auto;
+    width: 80%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 10px 0px 0px black;
+  }
+  .small {
+    width: 22px;
+    height: 65px;
+    background-color: #7393b3;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 1px 0px 0px 1px  #7393b3;
+  }
+  .large {
+    width: 22px;
+    height: 80px;
+    background-color: #301934;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 1px 0px 0px 1px #301934;
+  }
+  .extra-large {
+    width: 22px;
+    height: 100px;
+    background-color: #36454f;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 1px 0px 0px 1px #36454f;
+  }
+  .sticker {
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+    height: 5%;
+    border-radius: 10px;
+  }
+  .sticker2 {
+    margin-top: 3px;
+    width: 100%;
+    background-color: white;
+    height: 5%;
+    border-radius: 10px;
+  }
+  .button{
+text-align: center;
+  }
+.btn{
+width:100px;
+height: 30px;
+font-size: 1.2rem;
+background-color: black;
+color: white;
+cursor:pointer;
+}
+p{
+text-align: center;
+font-size: .6rem;
+}
+@media (min-width: 500px){
+.container {
+      width: 55%;
+    }
+    P{
+        font-size: .9rem;
+    }
+}
+  @media (min-width: 768px) {
+    .container {
+      width: 40%;
+    }
+    P{
+        font-size: 1rem;
+    }
+  }
+  @media (min-width: 850px) {
+    .container {
+      width: 32%;
+    }
+    P{
+        font-size: 1.1rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .container {
+      width: 25%;
+    }
+    P{
+        font-size: 1.3rem;
+    }
+  }
